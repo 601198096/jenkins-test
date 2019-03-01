@@ -19,4 +19,10 @@ public class PingControl {
     public String ping(){
          return  "ping";
     }
+
+    @RequestMapping("/index")
+    @ResponseBody
+    public String hello(){
+        return "hello world!";
+    }
 }
