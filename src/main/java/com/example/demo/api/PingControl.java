@@ -16,7 +16,7 @@ public class PingControl {
 
     @RequestMapping("/ping")
     @ResponseBody
-    public String ping() {
+    public String ping(){
          return  "ping";
     }
 }
